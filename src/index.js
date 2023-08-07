@@ -1,3 +1,7 @@
 import './style.css';
+import { initPage } from './initPage';
 
-console.log("Hello world!")
+window.onload = function() {
+    initPage();
+}
+
