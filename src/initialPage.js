@@ -33,6 +33,9 @@ function loadPage(){
 
     const header = createHeader('header');
     content.appendChild(header);
+
+    const main = createMain('main');
+    content.appendChild(main);
 }
 
 export { loadPage };
