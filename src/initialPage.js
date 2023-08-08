@@ -19,7 +19,7 @@ function createHeader(id){
 
     const homeBtn = createBtn('home', 'home');
     const menuBtn = createBtn('menu', 'menu');
-    const contactBtn = createBtn('contact', 'contact');
+    const contactBtn = createBtn('contacts', 'contacts');
     nav.appendChild(homeBtn);
     nav.appendChild(menuBtn);
     nav.appendChild(contactBtn);

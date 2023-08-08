@@ -37,3 +37,5 @@ function setBtnActive(id) {
   
     content.appendChild(aboutSection);
   }
+
+  export {loadHome};
